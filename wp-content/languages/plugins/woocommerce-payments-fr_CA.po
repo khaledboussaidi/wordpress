@@ -1,0 +1,931 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-11 09:29:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr_CA\n"
+"Project-Id-Version: WooCommerce - WooCommerce Payments\n"
+
+#: includes/class-wc-payments-translations-loader.php:103
+#: includes/class-wc-payments-translations-loader.php:134
+msgid "Could not access filesystem."
+msgstr "Impossible d&rsquo;accéder au système de fichier."
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:122
+msgid "Unexpected server error"
+msgstr ""
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:108
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+#. translators: %s: the error message.
+#: includes/admin/class-wc-rest-payments-orders-controller.php:107
+msgid "Payment capture failed to complete with the following message: %s"
+msgstr ""
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:80
+msgid "The payment cannot be captured"
+msgstr ""
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:73
+msgid "Order not found"
+msgstr ""
+
+#: includes/payment-methods/class-sofort-payment-gateway.php:116
+msgid "Sofort payment has failed. If you continue to see this notice, please contact the admin."
+msgstr ""
+
+#. translators: localized exception message
+#: includes/payment-methods/class-sofort-payment-gateway.php:113
+#: includes/payment-methods/class-sofort-payment-gateway.php:124
+msgid "Sofort payment failed: %s"
+msgstr ""
+
+#. translators: %1: the successfully charged amount, %2: transaction ID of the
+#. payment
+#: includes/payment-methods/class-sofort-payment-gateway.php:94
+msgid "A payment of %1$s is <strong>in processing</strong> using WooCommerce Payments (<a>%2$s</a>)."
+msgstr ""
+
+#: includes/payment-methods/class-sofort-payment-gateway.php:49
+msgid "You will be redirected to Sofort."
+msgstr ""
+
+#: includes/payment-methods/class-sofort-payment-gateway.php:48
+msgid "Sofort"
+msgstr "Sofort"
+
+#: includes/payment-methods/class-sofort-payment-gateway.php:47
+msgid "Accept payments via Sofort."
+msgstr ""
+
+#: includes/payment-methods/class-sofort-payment-gateway.php:46
+msgid "WooCommerce Payments - Sofort"
+msgstr ""
+
+#. translators: link to Stripe testing page
+#: includes/payment-methods/class-giropay-payment-gateway.php:182
+#: includes/payment-methods/class-sofort-payment-gateway.php:177
+msgid "<strong>Test mode:</strong> You will be redirected to a test Stripe page to approve or deny payment."
+msgstr ""
+
+#: includes/payment-methods/class-giropay-payment-gateway.php:121
+msgid "Giropay payment has failed. If you continue to see this notice, please contact the admin."
+msgstr ""
+
+#. translators: localized exception message
+#: includes/payment-methods/class-giropay-payment-gateway.php:118
+#: includes/payment-methods/class-giropay-payment-gateway.php:129
+msgid "Giropay payment failed: %s"
+msgstr ""
+
+#: includes/payment-methods/class-giropay-payment-gateway.php:49
+msgid "You will be redirected to Giropay."
+msgstr ""
+
+#: includes/payment-methods/class-giropay-payment-gateway.php:48
+msgid "Giropay"
+msgstr "Giropay"
+
+#: includes/payment-methods/class-giropay-payment-gateway.php:47
+msgid "Accept payments via Giropay."
+msgstr ""
+
+#: includes/payment-methods/class-giropay-payment-gateway.php:46
+msgid "WooCommerce Payments - Giropay"
+msgstr ""
+
+#: includes/class-wc-payments-token-service.php:200
+msgid "SEPA IBAN"
+msgstr ""
+
+#. translators: last 4 digits of IBAN account
+#: includes/class-wc-payment-token-wcpay-sepa.php:53
+msgid "SEPA IBAN ending in %s"
+msgstr ""
+
+#: includes/class-wc-payment-gateway-wcpay.php:294
+msgid "Enable WooCommerce Sofort"
+msgstr ""
+
+#: includes/class-wc-payment-gateway-wcpay.php:293
+msgid "Enable/disable Sofort"
+msgstr ""
+
+#: includes/class-wc-payment-gateway-wcpay.php:272
+msgid "Enable WooCommerce Giropay"
+msgstr ""
+
+#: includes/class-wc-payment-gateway-wcpay.php:271
+msgid "Enable/disable Giropay"
+msgstr ""
+
+#. translators: %1: charge ID
+#: includes/admin/class-wc-rest-payments-webhook-controller.php:255
+msgid "Could not find order via intent ID: %1$s"
+msgstr ""
+
+#. translators: This is an error API response.
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1164
+msgctxt "API error message to throw as Exception"
+msgid "Error: %1$s"
+msgstr "Erreur : %1$s"
+
+#: woocommerce-payments.php:125
+msgid "The version of Jetpack installed is too old to be used with WooCommerce Payments. WooCommerce Payments has been disabled. Please deactivate or update Jetpack."
+msgstr "La version de Jetpack installée est trop ancienne pour être utilisée avec les paiements WooCommerce. Paiements WooCommerce a été désactivé. Veuillez désactiver Jetpack ou le mettre à jour."
+
+#. translators: %1: original error message.
+#: includes/wc-payment-api/class-wc-payments-http.php:89
+msgid "Http request failed. Reason: %1$s"
+msgstr "Échec de la demande Http. Raison : %1$s"
+
+#: includes/wc-payment-api/class-wc-payments-http.php:54
+msgid "Site is not connected to WordPress.com"
+msgstr "Le site n'est pas connecté à WordPress.com"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1159
+msgid "Server error. Please try again."
+msgstr "Erreur de serveur. Veuillez réessayer."
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1140
+msgid "Unable to decode response from WooCommerce Payments API"
+msgstr "Impossible de décoder la réponse de l'API des paiements Commerce"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1039
+msgid "Unable to encode body for request to WooCommerce Payments API."
+msgstr "Impossible d'encoder le corps de la demande à l'API es paiements WooCommerce"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:810
+msgid "Customer ID is required"
+msgstr "ID du client requis"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:649
+msgid "Max file size exceeded."
+msgstr "La taille maximale du fichier est dépassée."
+
+#. translators: link to Stripe testing page
+#: includes/payment-methods/class-sepa-payment-gateway.php:90
+msgid "<strong>Test mode:</strong> use the test SEPA card DE89370400440532013000 with account number 000123456, or any test card numbers listed <a>here</a>."
+msgstr "<strong>Mode test : </strong> utilisez la carte de test SEPA DE89370400440532013000 avec le numéro de compte 000123456 out tout autre numéro de carte test listé <a>ici</a>."
+
+#. translators: %s: statement descriptor.
+#: includes/payment-methods/class-sepa-payment-gateway.php:82
+msgid "By providing your IBAN and confirming this payment, you are authorizing %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr "En fournissant votre IBAN et en confirmant ce paiement, vous autorisez %s et Stripe, notre fournisseur de services de paiement, à envoyer des instructions à votre institution financière pour débiter votre compte conformément à ces instructions. Vous avez droit à un remboursement de la part de votre institution financière selon les termes et conditions de votre convention bancaire. Un remboursement doit être demandé dans un délai de 8 semaines à compter de la date à laquelle votre compte a été débité."
+
+#: includes/payment-methods/class-sepa-payment-gateway.php:47
+msgid "Mandate Information."
+msgstr "Renseignements obligatoires"
+
+#: includes/payment-methods/class-sepa-payment-gateway.php:46
+msgid "SEPA Direct Debit"
+msgstr "Débit direct SEPA"
+
+#: includes/payment-methods/class-sepa-payment-gateway.php:45
+msgid "Accept payments via SEPA Direct Debit."
+msgstr "Paiements acceptés par débit direct SEPA."
+
+#: includes/payment-methods/class-sepa-payment-gateway.php:44
+msgid "WooCommerce Payments - SEPA"
+msgstr "Paiements WooCommerce – SEPA"
+
+#: includes/notes/class-wc-payments-notes-set-up-refund-policy.php:36
+msgid "Protect your merchant account from fraudulent disputes by defining the policy and making it accessible to customers."
+msgstr "Protégez votre compte marchand contre les litiges frauduleux en définissant la politique et en la rendant accessible aux clients."
+
+#: includes/notes/class-wc-payments-notes-set-up-refund-policy.php:35
+msgid "Set up refund policy"
+msgstr "Configuration de la politique de remboursement"
+
+#: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:52
+msgid "Protect your customers data and increase trustworthiness of your store by forcing HTTPS on checkout pages."
+msgstr "Protégez les données de vos clients et augmentez la fiabilité de votre boutique en imposant le protocole HTTPS sur les pages de paiement."
+
+#: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:51
+msgid "Force secure checkout"
+msgstr "Forcer la validation de commande en mode sécurisé (SSL)"
+
+#: includes/notes/class-wc-payments-notes-qualitative-feedback.php:56
+msgid "Share feedback"
+msgstr "Partager des commentaires"
+
+#: includes/notes/class-wc-payments-notes-qualitative-feedback.php:49
+msgid "Share your feedback in this 2 minute survey about how we can make the process of accepting payments more useful for your store."
+msgstr "Répondez à ce sondage de deux minutes pour savoir comment nous pouvons rendre le processus d'acceptation des paiements plus utile pour votre boutique."
+
+#: includes/notes/class-wc-payments-notes-qualitative-feedback.php:48
+msgid "Help us make improvements to WooCommerce Payments"
+msgstr "Aidez-nous à apporter des améliorations à paiements WooCommerce"
+
+#: includes/notes/class-wc-payments-notes-instant-deposits-eligible.php:43
+#: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:59
+#: includes/notes/class-wc-payments-notes-set-up-refund-policy.php:43
+msgid "Read more"
+msgstr "Lire plus"
+
+#: includes/notes/class-wc-payments-notes-instant-deposits-eligible.php:36
+msgid "You are now eligible for Instant Deposits! Skip the wait and get paid instantly."
+msgstr "Vous êtes maintenant admissible aux dépôts instantanés! Évitez l'attente et soyez payé instantanément."
+
+#: includes/notes/class-wc-payments-notes-instant-deposits-eligible.php:35
+msgid "Instant deposits available"
+msgstr "Dépôts instantanés disponibles"
+
+#. translators: 1: payment method likely credit card, 2: last 4 digit.
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:418
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:437
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:478
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:486
+msgid "%1$s ending in %2$s"
+msgstr "%1$s se terminant par %2$s"
+
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:316
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:384
+msgid "Please select a payment method"
+msgstr "Veuillez sélectionner un mode de paiement"
+
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:256
+msgid "The saved payment method selected does not belong to this order's customer."
+msgstr "Le mode de paiement enregistré sélectionné n'appartient pas au client de cette commande."
+
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:249
+msgid "The saved payment method selected is invalid or does not exist."
+msgstr "Le mode de paiement enregistré sélectionné n'est pas valide ou n'existe pas."
+
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:240
+msgid "A customer saved payment method was not selected for this order."
+msgstr "Un mode de paiement enregistré par le client n'a pas été sélectionné pour cette commande."
+
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:201
+msgid "Saved payment method"
+msgstr "Mode de paiement enregistré"
+
+#: includes/class-wc-payments.php:412
+msgid "Update WordPress"
+msgstr "Mise à niveau de WordPress"
+
+#. translators: %1: required WP version number, %2: currently installed WP
+#. version number
+#: includes/class-wc-payments.php:405
+msgid "WooCommerce Payments requires <strong>WordPress %1$s</strong> or greater (you are using %2$s)."
+msgstr "Paiement WooCommerce nécessite <strong>WordPress %1$s</strong> ou une version ultérieure (vous utilisez %2$s)."
+
+#: includes/class-wc-payments.php:392
+msgid "Use the bundled version of WooCommerce Admin"
+msgstr "Utilisez la version groupée de WooCommerce Admin"
+
+#: includes/class-wc-payments.php:389
+msgid "There is a newer version of WooCommerce Admin bundled with WooCommerce."
+msgstr "Il existe une version plus récente de WooCommerce Admin groupée avec WooCommerce."
+
+#. translators: %1: required WC-Admin version number, %2: currently installed
+#. WC-Admin version number
+#: includes/class-wc-payments.php:381
+msgid "WooCommerce Payments requires <strong>WooCommerce Admin %1$s</strong> or greater to be installed (you are using %2$s)."
+msgstr "Paiement WooCommerce nécessite l'installation de <strong> WooCommerce Admin%1$s</strong> ou d'une version ultérieure (vous utilisez %2$s)."
+
+#: includes/class-wc-payments.php:367
+msgid "WooCommerce Payments requires WooCommerce Admin to be enabled. Please remove the <code>woocommerce_admin_disabled</code> filter to use WooCommerce Payments."
+msgstr "Paiement WooCommerce nécessite l'activation de WooCommerce Admin. Veuillez supprimer le filtre <code>woocommerce_admin_disabled</code> pour utiliser Paiement WooCommerce."
+
+#: includes/class-wc-payments.php:355
+msgid "Update WooCommerce"
+msgstr "Mise à niveau de WooCommerce"
+
+#. translators: %1: required WC version number, %2: currently installed WC
+#. version number
+#: includes/class-wc-payments.php:346
+msgid "WooCommerce Payments requires <strong>WooCommerce %1$s</strong> or greater to be installed (you are using %2$s)."
+msgstr "Paiement WooCommerce nécessite l'installation de <strong> WooCommerce %1$s</strong> ou d'une version ultérieure (vous utilisez %2$s)."
+
+#: includes/class-wc-payments.php:330
+msgid "Activate WooCommerce"
+msgstr "Activation de WooCommerce"
+
+#: includes/class-wc-payments.php:326
+msgid "Install WooCommerce"
+msgstr "Installation de WooCommerce"
+
+#: includes/class-wc-payments.php:318
+msgid "WooCommerce Payments requires <a>WooCommerce</a> to be installed and active."
+msgstr "Paiement WooCommerce nécessite l'installation et l'activation de <a> WooCommerce</a>."
+
+#: includes/class-wc-payments-utils.php:226
+#: includes/wc-payment-api/class-wc-payments-api-client.php:513
+msgid "Subscription #"
+msgstr "Abonnement nº"
+
+#: includes/class-wc-payments-utils.php:216
+#: includes/wc-payment-api/class-wc-payments-api-client.php:515
+msgid "Order #"
+msgstr "Commande n°"
+
+#. translators: %1: transaction ID of the payment
+#: includes/class-wc-payments-utils.php:196
+msgid "Payment authorization has <strong>expired</strong> (<code>%1$s</code>)."
+msgstr "L'autorisation de paiement a <strong> expiré</strong> <code>%1$s</code>."
+
+#: includes/class-wc-payments-payment-request-button-handler.php:1338
+msgid "Discount"
+msgstr "Remise"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:1171
+msgid "Empty cart"
+msgstr "Vider panier"
+
+#. translators: %s: country.
+#: includes/class-wc-payments-payment-request-button-handler.php:1158
+msgid "The Payment Request button is not supported in %s because some required fields couldn't be verified. Please proceed to the checkout page and try again."
+msgstr "Le bouton de demande de paiement n'est pas pris en charge %s car certains champs obligatoires n'ont pas pu être vérifiés. Veuillez passer à la page de paiement et réessayer."
+
+#. translators: 1: product name 2: quantity in stock
+#: includes/class-wc-payments-payment-request-button-handler.php:904
+msgid "You cannot add that amount of \"%1$s\"; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "Vous ne pouvez pas ajouter cette quantité de %1$s\";au panier car il n'y a pas assez de stock (%2$srestant)."
+
+#. translators: product ID
+#: includes/class-wc-payments-payment-request-button-handler.php:883
+msgid "Product with the ID (%d) cannot be found."
+msgstr "Le produit avec l'ID (%d est introuvable."
+
+#: includes/class-wc-payments-payment-request-button-handler.php:772
+#: includes/class-wc-payments-payment-request-button-handler.php:785
+msgid "Unable to find shipping method for address."
+msgstr "Impossible de trouver la méthode d'expédition pour l'adresse."
+
+#: includes/class-wc-payments-payment-request-button-handler.php:652
+msgid "OR"
+msgstr "OR"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:272
+#: includes/class-wc-payments-payment-request-button-handler.php:936
+msgid "Pending"
+msgstr "En attente"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:265
+#: includes/class-wc-payments-payment-request-button-handler.php:929
+#: includes/class-wc-payments-payment-request-button-handler.php:1331
+msgid "Shipping"
+msgstr "Expédition"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:257
+#: includes/class-wc-payments-payment-request-button-handler.php:921
+#: includes/class-wc-payments-payment-request-button-handler.php:1324
+msgid "Tax"
+msgstr "TVA"
+
+#. translators: %1$s Name.
+#: includes/class-wc-payments-customer-service.php:274
+msgid "Name: %1$s, Guest"
+msgstr "Nom : %1$s, Invité"
+
+#. translators: %1$s Name, %2$s Username.
+#: includes/class-wc-payments-customer-service.php:270
+msgid "Name: %1$s, Username: %2$s"
+msgstr "Nom : %1$s, Prénom : %2$s"
+
+#. translators: 1) HTML anchor open tag 2) HTML anchor closing tag
+#: includes/class-wc-payments-apple-pay-registration.php:387
+msgid "Please check the %1$slogs%2$s for more details on this issue. Debug log must be enabled to see recorded logs."
+msgstr "Veuillez consulter les %1$sjournaux%2$spour plus de détails sur ce problème. Le journal de débogage doit être activé pour voir les journaux enregistrés."
+
+#: includes/class-wc-payments-apple-pay-registration.php:384
+msgid "Apple Pay domain verification failed with the following error:"
+msgstr "La vérification du domaine Apple Pay a échoué avec l'erreur suivante :"
+
+#: includes/class-wc-payments-apple-pay-registration.php:383
+msgid "Apple Pay domain verification failed."
+msgstr "La vérification du domaine Apple Pay a échoué."
+
+#: includes/class-wc-payments-apple-pay-registration.php:382
+msgid "Payment Request Button:"
+msgstr "Bouton de demande de paiement :"
+
+#: includes/class-wc-payments-apple-pay-registration.php:349
+msgid "Payment Request Buttons are enabled. To use Apple Pay, please use a live WooCommerce Payments account."
+msgstr "Les boutons de demande de paiement sont activés. Pour utiliser Apple Pay, un compte Paiement WooCommerce doit être actif."
+
+#: includes/class-wc-payments-apple-pay-registration.php:259
+msgid "Your domain has been verified with Apple Pay!"
+msgstr "Votre domaine a été vérifié avec Apple Pay!"
+
+#: includes/class-wc-payments-apple-pay-registration.php:186
+msgid "Domain association file updated."
+msgstr "Fichier d'association de domaine mis à jour."
+
+#. translators: expected domain association file URL
+#: includes/class-wc-payments-apple-pay-registration.php:183
+msgid "To enable Apple Pay, domain association file must be hosted at %s."
+msgstr "Pour activer Apple Pay, le fichier d'association de domaine doit être hébergé à %s"
+
+#: includes/class-wc-payments-apple-pay-registration.php:163
+msgid "Unable to copy domain association file to domain root."
+msgstr "Impossible de copier le fichier d'association de domaine à la racine du domaine."
+
+#: includes/class-wc-payments-apple-pay-registration.php:158
+msgid "Unable to create domain association folder to domain root."
+msgstr "Impossible de créer un dossier d'association de domaine à la racine du domaine."
+
+#: includes/class-wc-payments-account.php:530
+msgid "There was a problem processing your account data. Please try again."
+msgstr "Un problème est survenu dans le traitement des données de votre compte. Veuillez réessayer."
+
+#: includes/class-wc-payments-account.php:369
+msgid "There was a problem redirecting you to the account connection page. Please try again."
+msgstr "Un problème est survenu pour vous rediriger vers la page de connexion du compte. Veuillez réessayer."
+
+#. translators: error message.
+#: includes/class-wc-payments-account.php:359
+msgid "There was a problem connecting this site to WordPress.com: \"%s\""
+msgstr "Un problème est survenu lors de la connexion de ce site à WordPress.com : %s"
+
+#: includes/class-wc-payments-account.php:349
+msgid "Connection to WordPress.com failed. Please connect to WordPress.com to start using WooCommerce Payments."
+msgstr "Échec de la connexion à WordPress.com Veuillez vous connecter à WordPress.com pour commencer à utiliser Paiement WooCommerce."
+
+#: includes/class-wc-payments-account.php:335
+msgid "Thanks for verifying your business details!"
+msgstr "Merci de vérifier les détails de votre entreprise!"
+
+#: includes/class-wc-payments-account.php:333
+msgid "Thanks for verifying your business details. You're ready to start taking payments!"
+msgstr "Merci de vérifier les détails de votre entreprise. Vous êtes prêt à commencer à accepter des paiements!"
+
+#: includes/class-wc-payments-account.php:323
+msgid "There was a problem redirecting you to the account dashboard. Please try again."
+msgstr "Un problème est survenu pour vous rediriger vers le tableau de bord du compte. Veuillez réessayer."
+
+#: includes/class-wc-payments-account.php:135
+msgid "Failed to detect connection status"
+msgstr "Échec de la détection de l'état de la connexion"
+
+#: includes/class-wc-payments-account.php:68
+msgid "This tool will clear the account cached values used in WooCommerce Payments."
+msgstr "Cet outil effacera les valeurs du compte caché utilisées dans Paiemet WooCommerce."
+
+#: includes/class-wc-payments-account.php:67
+msgid "Clear"
+msgstr "Effacer"
+
+#: includes/class-wc-payments-account.php:66
+msgid "Clear WooCommerce Payments account cache"
+msgstr "Effacer le compte cache dans Paiement WooCommerce."
+
+#: includes/class-wc-payment-gateway-wcpay.php:2022
+msgid "We're not able to add this payment method. Please refresh the page and try again."
+msgstr "Nous ne sommes pas en mesure d'ajouter ce mode de paiement. Veuillez rafraîchir cette page et réessayer."
+
+#: includes/class-wc-payment-gateway-wcpay.php:1926
+msgid "Failed to add the provided payment method. Please try again later"
+msgstr "Échec pour ajouter le mode de paiement fourni. Veuillez réessayer plus tard"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1917
+msgid "We're not able to add this payment method. Please try again later"
+msgstr "Nous ne sommes pas en mesure d'ajouter ce mode de paiement. Veuillez réessayer plus tard"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1905
+msgid "A WooCommerce Payments payment method was not provided"
+msgstr "Un mode de paiement Paiement WooCommerce n'a pas été fourni."
+
+#. translators: %1: transaction ID of the payment or a translated string
+#. indicating an unknown ID.
+#: includes/class-wc-payment-gateway-wcpay.php:1861
+msgid "A payment with ID <code>%1$s</code> was used in an attempt to pay for this order. This payment intent ID does not match any payments for this order, so it was ignored and the order was not updated."
+msgstr "Un paiement avec ID <code>%1$s</code>a été utilisé pour tenter de payer cette commande. Cet ID d'intention de paiement ne correspond à aucun paiement pour cette commande, il a donc été ignoré et la commande n'a pas été mise à jour."
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payment-gateway-wcpay.php:1810
+msgid "A payment of %1$s <strong>failed</strong> using WooCommerce Payments (<code>%2$s</code>)."
+msgstr "Un paiement de %1$s <strong> a échoué</strong> en utilisant Paiement WooCommerce Payments  (<code>%2$s</code>)."
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payment-gateway-wcpay.php:1782
+msgid "A payment of %1$s <strong>failed</strong> using WooCommerce Payments (<a>%2$s</a>)."
+msgstr "Un paiement de %1$s <strong> a échoué</strong> en utilisant Paiement WooCommerce Payments  (<a>%2$s</a>)."
+
+#. translators: This will be used to indicate an unknown value for an ID.
+#: includes/class-wc-payment-gateway-wcpay.php:1700
+msgid "unknown"
+msgstr "inconnu"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1691
+#: includes/class-wc-payment-gateway-wcpay.php:1704
+#: includes/class-wc-payment-gateway-wcpay.php:1718
+msgid "We're not able to process this payment. Please try again later."
+msgstr "Nous ne sommes pas en mesure de traiter ce paiement. Veuillez réessayer plus tard."
+
+#: includes/class-wc-payment-gateway-wcpay.php:1589
+msgid "Canceling authorization <strong>failed</strong> to complete."
+msgstr "L'autorisation d'annulation <strong>a échoué</strong>."
+
+#. translators: %1: error message
+#: includes/class-wc-payment-gateway-wcpay.php:1574
+msgid "Canceling authorization <strong>failed</strong> to complete with the following message: <code>%1$s</code>."
+msgstr "L'autorisation d'annulation <strong>a échoué</strong> avec le message suivant :<code>%1$s</code>."
+
+#: includes/class-wc-payment-gateway-wcpay.php:1566
+msgid "Payment authorization was successfully <strong>cancelled</strong>."
+msgstr "L'autorisation de paiement a été <strong> annulée avec succès</strong>."
+
+#. translators: %1: the failed capture amount
+#: includes/class-wc-payment-gateway-wcpay.php:1512
+msgid "A capture of %1$s <strong>failed</strong> to complete."
+msgstr "Une tentative de saisie %1$s <strong>a échoué</strong>."
+
+#. translators: %1: the failed capture amount, %2: error message
+#: includes/class-wc-payment-gateway-wcpay.php:1495
+msgid "A capture of %1$s <strong>failed</strong> to complete with the following message: <code>%2$s</code>."
+msgstr "Une tentative de saisie %1$s <strong>a échoué</strong> avec le message suivant : <code>%2$s</code>."
+
+#. translators: %1: the successfully charged amount
+#: includes/class-wc-payment-gateway-wcpay.php:1481
+msgid "A payment of %1$s was <strong>successfully captured</strong> using WooCommerce Payments."
+msgstr "Un paiement de %1$s a été <strong>saisi  avec succès</strong>  en utilisant Paiement WooCommerce."
+
+#: includes/class-wc-payment-gateway-wcpay.php:1425
+msgid "Cancel authorization"
+msgstr "Autorisation d'annulation"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1424
+msgid "Capture charge"
+msgstr "Frais de saisie"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1397
+msgid "Account"
+msgstr "Compte"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1386
+#: includes/class-wc-payment-gateway-wcpay.php:1390
+msgid "Error determining the connection status."
+msgstr "Erreur au moment de déterminer le statut de la commexion."
+
+#: includes/class-wc-payment-gateway-wcpay.php:1382
+msgid "You will automatically be <em>signed in to Stripe</em> with your WooCommerce Payments account."
+msgstr "Vous serez automatiquement  <em>connecté à Stripe</em> avec votre compte Paiements WooCommerce."
+
+#. translators: 1) dashboard login URL
+#: includes/class-wc-payment-gateway-wcpay.php:1377
+msgid "View and edit account details"
+msgstr "Afficher et modifier les détails du compte"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1362
+msgid "Customer bank statement is invalid. Statement should be between 5 and 22 characters long, contain at least single Latin character and does not contain special characters: ' \" * &lt; &gt;"
+msgstr "Le relevé bancaire du client n’est pas valide. Le relevé doit comporter entre 5 et 22 caractères, contenir au moins un caractère latin et ne pas contenir de caractères spéciaux : ' \" * &lt; &gt;"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1334
+msgid "Failed to update Statement descriptor. "
+msgstr "Échec de la mise à jour de  "
+
+#: includes/class-wc-payment-gateway-wcpay.php:1191
+msgid "Base fee"
+msgstr "Frais de base"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1167
+msgid "Account status"
+msgstr "Statut du compte"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1147
+msgid "Dev mode is active so logging is on by default."
+msgstr "Le mode Dev est actif, donc la journalisation est activée par défaut."
+
+#: includes/class-wc-payment-gateway-wcpay.php:1142
+msgid "Dev mode is active so all transactions will be in test mode. This setting is only available to live accounts."
+msgstr "Le mode DEV est actif, alos toutes les transactions seront en mode test. Cette configuration ne touche que les comptes actifs."
+
+#. translators: %1: the successfully charged amount, %2: reason
+#: includes/class-wc-payment-gateway-wcpay.php:1114
+msgid "A refund of %1$s was successfully processed using WooCommerce Payments. Reason: %2$s"
+msgstr "Un remboursement de %1$s a été effectué avec succès en utilisant Paiement WooCommerce. Raison : %2$s"
+
+#. translators: %1: the successfully charged amount
+#: includes/class-wc-payment-gateway-wcpay.php:1108
+msgid "A refund of %1$s was successfully processed using WooCommerce Payments."
+msgstr "Un remboursement de %1$s a été effectué avec succès en utilisant Paiement WooCommerce."
+
+#. translators: %1: the successfully charged amount, %2: error message
+#: includes/class-wc-payment-gateway-wcpay.php:1093
+msgid "A refund of %1$s failed to complete: %2$s"
+msgstr "Le remboursement %1$sa échoué :%2$s"
+
+#. translators: an error message which will appear if a user tries to refund an
+#. order which is has been authorized but not yet charged.
+#: includes/class-wc-payment-gateway-wcpay.php:1075
+msgid "This payment is not captured yet. To cancel this order, please go to 'Order Actions' > 'Cancel Authorization'. To proceed with a refund, please go to 'Order Actions' > 'Capture charge' to charge the payment card, and then trigger a refund via the 'Refund' button."
+msgstr ""
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payment-gateway-wcpay.php:987
+msgid "A payment of %1$s was <strong>started</strong> using WooCommerce Payments (<code>%2$s</code>)."
+msgstr "Un paiement de %1$s a été <strong>effectué</strong> en utilisant Paiement WooCommerce <code>%2$s</code>)."
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payment-gateway-wcpay.php:968
+#: includes/class-wc-payment-gateway-wcpay.php:1758
+msgid "A payment of %1$s was <strong>authorized</strong> using WooCommerce Payments (<a>%2$s</a>)."
+msgstr "Un paiement de %1$s a été <strong>autorisé </strong>en utilisant Paiement WooCommerce <a>%2$s</a>)."
+
+#. translators: %1: the successfully charged amount, %2: transaction ID of the
+#. payment
+#: includes/class-wc-payment-gateway-wcpay.php:949
+#: includes/class-wc-payment-gateway-wcpay.php:1736
+#: includes/payment-methods/class-giropay-payment-gateway.php:99
+msgid "A payment of %1$s was <strong>successfully charged</strong> using WooCommerce Payments (<a>%2$s</a>)."
+msgstr "Un paiement de %1$s a été <strong>saisi avec succès</strong> en utilisant Paiement WooCommerce<a>%2$s</a>."
+
+#. translators: %1: the last 4 digit of the credit card
+#: includes/class-wc-payment-gateway-wcpay.php:815
+msgid "Payment method is changed to: <strong>Credit Card ending in %1$s</strong>."
+msgstr "Le mode de paiement est changé à  : <strong>Carte de crédit se terminant par %1$s</strong>."
+
+#. translators: %1: the failed payment amount, %2: error message
+#: includes/class-wc-payment-gateway-wcpay.php:697
+#: includes/compat/subscriptions/class-wc-payment-gateway-wcpay-subscriptions-compat.php:155
+#: includes/payment-methods/class-giropay-payment-gateway.php:252
+#: includes/payment-methods/class-sofort-payment-gateway.php:247
+msgid "A payment of %1$s <strong>failed</strong> to complete with the following message: <code>%2$s</code>."
+msgstr "A payment of %1$s <strong>failed</strong> to complete with the following message : <code>%2$s</code>."
+
+#: includes/class-wc-payment-gateway-wcpay.php:686
+#: includes/class-wc-payment-gateway-wcpay.php:1682
+msgid "We're not able to process this payment. Please refresh the page and try again."
+msgstr "Nous ne sommes pas en mesure de traiter ce paiement. Veuillez rafraîchir cette page et réessayer."
+
+#: includes/class-wc-payment-gateway-wcpay.php:684
+#: includes/payment-methods/class-giropay-payment-gateway.php:241
+#: includes/payment-methods/class-sofort-payment-gateway.php:236
+msgid "There was an error while processing the payment. If you continue to see this notice, please contact the admin."
+msgstr "Une erreur est survenue lors du traitement du paiement. Si ce message s'affiche toujours, communiquez avec votre administrateur."
+
+#: includes/class-wc-payment-gateway-wcpay.php:660
+#: includes/payment-methods/class-giropay-payment-gateway.php:196
+#: includes/payment-methods/class-sepa-payment-gateway.php:126
+#: includes/payment-methods/class-sofort-payment-gateway.php:191
+msgid "An error was encountered when preparing the payment form. Please try again later."
+msgstr "Une erreur est survenue lors de la préparation du formulaire de paiement. Veuillez réessayer plus tard."
+
+#. translators: link to Stripe testing page
+#: includes/class-wc-payment-gateway-wcpay.php:624
+msgid "<strong>Test mode:</strong> use the test VISA card 4242424242424242 with any expiry date and CVC, or any test card numbers listed <a>here</a>."
+msgstr "<strong>Mode test :</strong> utilisez la carte Visa d'essai 4242424242424242 avec n'importe quelle date d'expiration et n'importe quel code CVC ou tout autre numéro de carte test listé <a>ici</a>."
+
+#: includes/class-wc-payment-gateway-wcpay.php:536
+msgid "Save payment information to my account for future purchases."
+msgstr "Enregistrer mes renseignements de paiement à mon compte pour les achats futurs."
+
+#: includes/class-wc-payment-gateway-wcpay.php:490
+msgid "There was a problem processing the payment. Please check your email inbox and refresh the page to try again."
+msgstr "Un problème est survenu lors du traitement du paiement. Vérifiez votre boîte de courriels, rafraîchissez la page, puis réessayez."
+
+#: includes/admin/class-wc-payments-admin-sections-overwrite.php:82
+msgid "All payment methods"
+msgstr "Tous les modes de paiement"
+
+#: includes/class-wc-payment-gateway-wcpay.php:433
+msgid "All transactions are simulated. Customers can't make real purchases through WooCommerce Payments."
+msgstr "Toutes les transactions sont simulées. Les clients ne peuvent pas effectuer des achats réels avec Paiement WooCommerce."
+
+#: includes/class-wc-payment-gateway-wcpay.php:432
+msgid "Test mode active: "
+msgstr "Test mode activé : "
+
+#: includes/class-wc-payment-gateway-wcpay.php:283
+msgid "Enable WooCommerce SEPA Direct Debit"
+msgstr "Activez Débit direct SEPA WooCommerce"
+
+#: includes/class-wc-payment-gateway-wcpay.php:282
+msgid "Enable/disable SEPA"
+msgstr "Activez/désactivez SEPA"
+
+#: includes/class-wc-payment-gateway-wcpay.php:263
+msgid "Select pages"
+msgstr "Sélectionnez les pages"
+
+#: includes/class-wc-payment-gateway-wcpay.php:260
+msgid "Checkout"
+msgstr "Valider la commande"
+
+#: includes/class-wc-payment-gateway-wcpay.php:259
+msgid "Cart"
+msgstr "Panier"
+
+#: includes/class-wc-payment-gateway-wcpay.php:258
+msgid "Product"
+msgstr "Produit"
+
+#: includes/class-wc-payment-gateway-wcpay.php:250
+msgid "Select where you would like to display the button."
+msgstr "Sélectionnez l'endroit où vous voulez afficher le bouton."
+
+#: includes/class-wc-payment-gateway-wcpay.php:248
+msgid "Button locations"
+msgstr "Emplacements du bouton"
+
+#: includes/class-wc-payment-gateway-wcpay.php:244
+msgid "Text and logo"
+msgstr "Texte et logo"
+
+#: includes/class-wc-payment-gateway-wcpay.php:243
+msgid "Logo only"
+msgstr "Logo seulement"
+
+#: includes/class-wc-payment-gateway-wcpay.php:239
+msgid "Select the branded button label format."
+msgstr "Sélectionnez le format de l'étiquette du bouton de marque"
+
+#: includes/class-wc-payment-gateway-wcpay.php:237
+msgid "Branded button format"
+msgstr "Format du bouton de marque"
+
+#: includes/class-wc-payment-gateway-wcpay.php:233
+msgid "Buy now"
+msgstr "Acheter"
+
+#: includes/class-wc-payment-gateway-wcpay.php:232
+msgid "Enter the custom text you would like the button to have."
+msgstr "Entrez le texte personnalisé pour le bouton."
+
+#: includes/class-wc-payment-gateway-wcpay.php:230
+msgid "Custom button label"
+msgstr "Étiquette personnalisée"
+
+#: includes/class-wc-payment-gateway-wcpay.php:225
+msgid "Enter the height you would like the button to be in pixels. Width will always be 100%."
+msgstr "Entrez la hauteur que vous souhaitez donner au bouton en pixels. La largeur sera toujours à 100 %"
+
+#: includes/class-wc-payment-gateway-wcpay.php:223
+msgid "Button height"
+msgstr "Hauteur du bouton"
+
+#: includes/class-wc-payment-gateway-wcpay.php:219
+msgid "Light-Outline"
+msgstr "Contour pâle"
+
+#: includes/class-wc-payment-gateway-wcpay.php:218
+msgid "Light"
+msgstr "Clair"
+
+#: includes/class-wc-payment-gateway-wcpay.php:217
+msgid "Dark"
+msgstr "Sombre"
+
+#: includes/class-wc-payment-gateway-wcpay.php:213
+msgid "Select the button theme you would like to show."
+msgstr "Sélectionnez le thème du bouton que vous souhaitez afficher."
+
+#: includes/class-wc-payment-gateway-wcpay.php:211
+msgid "Button theme"
+msgstr "Thème du bouton"
+
+#: includes/class-wc-payment-gateway-wcpay.php:207
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: includes/class-wc-payment-gateway-wcpay.php:206
+msgid "Branded"
+msgstr "De marque"
+
+#: includes/class-wc-payment-gateway-wcpay.php:205
+msgid "Donate"
+msgstr "Faire un don"
+
+#: includes/class-wc-payment-gateway-wcpay.php:204
+msgid "Buy"
+msgstr "Acheter"
+
+#: includes/class-wc-payment-gateway-wcpay.php:203
+msgid "Default"
+msgstr "Valeur par défaut"
+
+#: includes/class-wc-payment-gateway-wcpay.php:199
+msgid "Select the button type you would like to show."
+msgstr "Sélectionnez le type du bouton que vous souhaitez afficher."
+
+#: includes/class-wc-payment-gateway-wcpay.php:197
+msgid "Button type"
+msgstr "Type de bouton"
+
+#: includes/class-wc-payment-gateway-wcpay.php:192
+msgid "If enabled, users will be able to pay using Apple Pay or Chrome Payment Request if supported by the browser."
+msgstr "S'il est activé, les utilisateurs pourront payer en utilisant Apple Pay ou la demande de paiement de Chrome si le navigateur le prend en charge."
+
+#. translators: 1) br tag 2) Stripe anchor tag 3) Apple anchor tag
+#: includes/class-wc-payment-gateway-wcpay.php:186
+msgid "Enable payment request buttons (Apple Pay, Google Pay, and more). %1$sBy using Apple Pay, you agree to %2$s and %3$s's terms of service."
+msgstr "Activez les boutons de demande de paiement (Apple Pay, Google Pay, etc.). %1$sEn utilisant Apple Pay, vous convenez à %2$s et %3$s aux conditions de service."
+
+#: includes/class-wc-payment-gateway-wcpay.php:178
+msgid "Payment request buttons"
+msgstr "Boutons de demande de paiement :"
+
+#: includes/class-wc-payment-gateway-wcpay.php:172
+msgid "When enabled debug notes will be added to the log."
+msgstr "Lorsque cette option est activée, des notes de débogage seront ajoutées au journal."
+
+#: includes/class-wc-payment-gateway-wcpay.php:171
+msgid "Debug log"
+msgstr "Journal de débogage"
+
+#: includes/class-wc-payment-gateway-wcpay.php:166
+msgid "Simulate transactions using test card numbers."
+msgstr "Simulez des transactions en utilisant les numéros de cartes tests."
+
+#: includes/class-wc-payment-gateway-wcpay.php:164
+msgid "Enable test mode"
+msgstr "Activez le mode test"
+
+#: includes/class-wc-payment-gateway-wcpay.php:163
+msgid "Test mode"
+msgstr "Mode test"
+
+#: includes/class-wc-payment-gateway-wcpay.php:158
+msgid "If enabled, users will be able to pay with a saved card during checkout. Card details are saved on our platform, not on your store."
+msgstr "S'il est activé, les utilisateurs pourront payer avec une carte enregistrée lors du passage à la caisse. Les détails de la carte sont enregistrés sur notre plateforme, pas sur votre magasin."
+
+#: includes/class-wc-payment-gateway-wcpay.php:156
+msgid "Enable Payment via Saved Cards"
+msgstr "Activez le paiement par les cartes enregistrées"
+
+#: includes/class-wc-payment-gateway-wcpay.php:155
+msgid "Saved Cards"
+msgstr "Cartes enregistrées"
+
+#: includes/class-wc-payment-gateway-wcpay.php:151
+msgid "Charge must be captured within 7 days of authorization, otherwise the authorization and order will be canceled."
+msgstr "Les frais doivent être saisis dans les 7 jours suivant l'autorisation, sinon l'autorisation et la commande seront annulées."
+
+#: includes/class-wc-payment-gateway-wcpay.php:149
+msgid "Issue an authorization on checkout, and capture later."
+msgstr "Émettez une autorisation à la caisse, et saisissez plus tard."
+
+#: includes/class-wc-payment-gateway-wcpay.php:148
+msgid "Manual capture"
+msgstr "Saisie manuelle"
+
+#: includes/class-wc-payment-gateway-wcpay.php:143
+msgid "Edit the way your store name appears on your customers’ bank statements (read more about requirements <a>here</a>)."
+msgstr "Modifiez la façon dont le nom de votre magasin apparaît sur les relevés bancaires de vos clients (pour en savoir plus sur les exigences, cliquez <a></a>)"
+
+#: includes/class-wc-payment-gateway-wcpay.php:141
+msgid "Customer bank statement"
+msgstr "Relevé bancaire du client"
+
+#: includes/class-wc-payment-gateway-wcpay.php:125
+msgid "Enable WooCommerce Payments"
+msgstr "Activez Paiement WooCommerce"
+
+#: includes/class-wc-payment-gateway-wcpay.php:124
+#: includes/class-wc-payment-gateway-wcpay.php:183
+msgid "Enable/disable"
+msgstr "Activez/désactivez"
+
+#: includes/class-wc-payment-gateway-wcpay.php:115
+msgid "Enter your card details"
+msgstr "Entrez les détails de votre carte"
+
+#: includes/class-wc-payment-gateway-wcpay.php:114
+msgid "Credit card"
+msgstr "Carte de crédit"
+
+#: includes/class-wc-payment-gateway-wcpay.php:113
+msgid "Accept payments via credit card."
+msgstr "Acceptez les paiements par carte de crédit"
+
+#: includes/class-payment-information.php:104
+msgid "Invalid payment method. Please input a new card number."
+msgstr "Mode de paiement non valide Veuillez entrer un nouveau numéro de carte"
+
+#. translators: %1: ID being fetched
+#: includes/admin/class-wc-rest-payments-webhook-controller.php:281
+msgid "%1$s not found in array"
+msgstr "%1$s non trouvé dans le tableau"
+
+#. translators: %1: the refund amount, %2: ID of the refund
+#: includes/admin/class-wc-rest-payments-webhook-controller.php:191
+msgid "A refund of %1$s was <strong>unsuccessful</strong> using WooCommerce Payments (<code>%2$s</code>)."
+msgstr "Un remboursement de %1$s <strong>n'a pu être effectué</strong> en utilisant Paiement WooCommerce(<code>%2$s</code>)."
+
+#. translators: %1: charge ID
+#: includes/admin/class-wc-rest-payments-webhook-controller.php:181
+#: includes/admin/class-wc-rest-payments-webhook-controller.php:224
+msgid "Could not find order via charge ID: %1$s"
+msgstr "Impossible de trouver une commande par l'ID de frais : %1$s"
+
+#: includes/admin/class-wc-rest-payments-tos-controller.php:98
+msgid "ToS accept parameter is missing"
+msgstr "Le paramètre ToS accept est manquant"
+
+#: includes/admin/class-wc-payments-admin.php:207
+msgid "Challenge dispute"
+msgstr "Contestation du litige"
+
+#: includes/admin/class-wc-payments-admin.php:163
+#: includes/admin/class-wc-payments-admin.php:173
+#: includes/class-wc-payments.php:441
+msgid "Settings"
+msgstr "Paramètres"
+

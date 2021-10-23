@@ -1,0 +1,36 @@
+# Only allow direct access to specific Web-available files.
+php_value upload_max_filesize 12M
+php_value post_max_size 13M
+php_value memory_limit 15M
+# Apache 2.2
+<IfModule !mod_authz_core.c>
+	Order Deny,Allow
+	Deny from all
+</IfModule>
+
+# Apache 2.4
+<IfModule mod_authz_core.c>
+	Require all denied
+</IfModule>
+
+# Akismet CSS and JS
+<FilesMatch "^(form\.js|akismet\.js|akismet\.css)$">
+	<IfModule !mod_authz_core.c>
+		Allow from all
+	</IfModule>
+	
+	<IfModule mod_authz_core.c>
+		Require all granted
+	</IfModule>
+</FilesMatch>
+
+# Akismet images
+<FilesMatch "^logo-full-2x\.png$">
+	<IfModule !mod_authz_core.c>
+		Allow from all
+	</IfModule>
+	
+	<IfModule mod_authz_core.c>
+		Require all granted
+	</IfModule>
+</FilesMatch>
