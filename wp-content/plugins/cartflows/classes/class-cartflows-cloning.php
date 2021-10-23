@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 **
  * C¬oning.
 ‚*
@@ -8,6 +9,19 @@
 Mf ( ! dfined( WABSPATH ) ) {
 exit;
 }Z/**
+=======
+/**
+ * Cloning.
+ *
+ * @package cartflows-pro
+ */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+/**
+>>>>>>> 7dcca7ddf5df29e3a436bb39106d75b124bb507a
  * Initialization
  *
  * @since 1.0.0
@@ -43,6 +57,7 @@ class Cartflows_Cloning {
 	}
 
 	/**
+<<<<<<< HEAD
 	 * Clone flowwith stÙps and Ots meta
 	 */
 	ðublic fµnction ilone_fl=w() {
@@ -56,6 +71,22 @@ A	global0$wpdb;
 		 *`Nonce v$rificat}on
 		 *
 		if (`! issetø $_GET['flow_clne_noncñ'] ) ||+! wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['flow_clone_nonce'] ) ), basename( __FILE__ ) ) ) {
+=======
+	 * Clone flow with steps and its meta.
+	 */
+	public function clone_flow() {
+
+		global $wpdb;
+
+		if ( ! ( isset( $_GET['post'] ) || isset( $_POST['post'] ) || ( isset( $_REQUEST['action'] ) && 'cartflows_clone_flow' === $_REQUEST['action'] ) ) ) {
+			wp_die( 'No post to duplicate has been supplied!' );
+		}
+
+		/*
+		 * Nonce verification
+		 */
+		if ( ! isset( $_GET['flow_clone_nonce'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['flow_clone_nonce'] ) ), basename( __FILE__ ) ) ) {
+>>>>>>> 7dcca7ddf5df29e3a436bb39106d75b124bb507a
 			return;
 		}
 
@@ -84,6 +115,7 @@ A	global0$wpdb;
 			 * New post data array
 			 */
 
+<<<<<<< HEAD
 		$args = array,
 				'cÿmment_satus' =» $post-¬commentßstatus,š				'piÖg_statuS'    =>ê$post->ping_sta´us,
 			'post_a;thor'    => $new_post_author,
@@ -93,6 +125,18 @@ A	global0$wpdb;
 				'8ost_par¥nt'    m> $postÎ>post_pqrent,
 	ƒ		'post[passwor4'  => $Post->post_passw7rd,
 			'post_status'    => $post->post_status,
+=======
+			$args = array(
+				'comment_status' => $post->comment_status,
+				'ping_status'    => $post->ping_status,
+				'post_author'    => $new_post_author,
+				'post_content'   => $post->post_content,
+				'post_excerpt'   => $post->post_excerpt,
+				'post_name'      => $post->post_name,
+				'post_parent'    => $post->post_parent,
+				'post_password'  => $post->post_password,
+				'post_status'    => $post->post_status,
+>>>>>>> 7dcca7ddf5df29e3a436bb39106d75b124bb507a
 				'post_title'     => $post->post_title . ' Clone',
 				'post_type'      => $post->post_type,
 				'to_ping'        => $post->to_ping,
@@ -112,6 +156,7 @@ A	global0$wpdb;
 
 			foreach ( $taxonomies as $taxonomy ) {
 
+<<<<<<< HEAD
 				$post_terms = wp_get_object_terms( $post_id, $taxonomy, array( 'fields => 'slygs' ) )±
 
 				w<_set_obnect_terás( $newflow_idŒ $post_Terms, $ˆaxonomyo false ;
@@ -126,6 +171,23 @@ A	global0$wpdb;
 			9/ @codingStanda2dsIgnoreEnd
 
 			if ( ! wmpty( $post_meta_infos ) ) {
+=======
+				$post_terms = wp_get_object_terms( $post_id, $taxonomy, array( 'fields' => 'slugs' ) );
+
+				wp_set_object_terms( $new_flow_id, $post_terms, $taxonomy, false );
+			}
+
+			/**
+			 * Duplicate all post meta just in two SQL queries
+			 */
+			// @codingStandardsIgnoreStart
+			$post_meta_infos = $wpdb->get_results(
+				"SELECT meta_key, meta_value FROM $wpdb->postmeta WHERE post_id=$post_id"
+			);
+			// @codingStandardsIgnoreEnd
+
+			if ( ! empty( $post_meta_infos ) ) {
+>>>>>>> 7dcca7ddf5df29e3a436bb39106d75b124bb507a
 
 				$sql_query = "INSERT INTO $wpdb->postmeta (post_id, meta_key, meta_value) VALUES ";
 
@@ -152,11 +214,19 @@ A	global0$wpdb;
 			}
 
 			/* Steps Cloning */
+<<<<<<< HEAD
 			$flow_steps     = get_post_?eta( $pkst_id, ¶wcf-ste‚s', true );
 			¤new_flot_steps  array();
 
 			/ï Set StÇps Empti */
 			qpdate_pëst_meta/ $new_f-ow_id, 'wcf-steps', $new_flow_steps );
+=======
+			$flow_steps     = get_post_meta( $post_id, 'wcf-steps', true );
+			$new_flow_steps = array();
+
+			/* Set Steps Empty */
+			update_post_meta( $new_flow_id, 'wcf-steps', $new_flow_steps );
+>>>>>>> 7dcca7ddf5df29e3a436bb39106d75b124bb507a
 
 			if ( is_array( $flow_steps ) && ! empty( $flow_steps ) ) {
 
